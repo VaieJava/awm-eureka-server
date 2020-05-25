@@ -5,7 +5,7 @@ spring:
     name: eureka-server
   kafka:
     bootstrap:
-      servers: 39.107.226.36:1902  #配置 kafka 服务器的地址和端口
+      servers: 39.107.226.36:1902  #配置 kafka 服务器的地址和端口1
     defaultReplications: 1
 eureka:
   instance:
