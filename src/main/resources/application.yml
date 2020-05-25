@@ -1,6 +1,12 @@
 server:
   port: 8761
-
+spring:
+  application:
+    name: eureka-server
+  kafka:
+    bootstrap:
+      servers: 39.107.226.36:1902  #配置 kafka 服务器的地址和端口
+    defaultReplications: 1
 eureka:
   instance:
     hostname: eureka-server
